@@ -12,9 +12,14 @@ public class A {
 		throw new UnsupportedOperationException();
 	}
 
-	public int add(int i, int j) {
+	public int add(int n1, int n2) {
 		// TODO Auto-generated method stub
-		return 0;
+		return n1 + n2;
+	}
+
+	public int sub(int n1, int n2) {
+		// TODO Auto-generated method stub
+		return n1 - n2;
 	}
 
 }
